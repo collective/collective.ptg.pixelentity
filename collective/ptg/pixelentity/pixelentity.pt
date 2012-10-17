@@ -1,0 +1,28 @@
+<div id="slider-wrapper" >
+
+	<!-- skin stylesheets -->
+	<link rel="stylesheet" href="++resource++ptg.pixelentity/skin.min.css" />
+	
+ <!-- import plugin -->
+	<script type="text/javascript" src="++resource++ptg.pixelentity/jquery.pixelentity.kenburnsSlider.min.js"></script>
+	
+
+    <div class="peKenBurns" data-mode="kb" data-shadow="disabled" data-thumb="disabled" data-controls="disabled" data-autopause="none">
+    
+        <div tal:repeat="img view/adapter/cooked_images" class="peKb_active" data-delay="5" data-zoom="out" data-align="bottom,left" data-pan="center,right">
+
+                    <img title="Ichi Hulet Tres"
+                             alt=""
+                             src=""
+                             class="slider-image"
+                             tal:attributes="title img/title;
+                                             alt img/description;
+                                             src img/image_url" >
+ 
+                        <h1><span tal:content="img/title" /><span class="documentDescription" tal:content="structure img/description">Description</span> 
+                    </div>
+ 
+    </div>
+</div>
+
+<div class="visualClear">&nbsp;</div>

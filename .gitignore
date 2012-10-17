@@ -1,0 +1,9 @@
+.pyc
+.DS_Store
+
+*.pyc
+
+ 
+*.zip
+
+collective.ptg.pixelentity.egg-info

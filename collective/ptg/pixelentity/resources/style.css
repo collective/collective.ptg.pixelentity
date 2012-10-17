@@ -1,0 +1,40 @@
+	
+		/* set border size to 10px */
+		.peKenBurns .peKb_slides {
+			padding: 0 10px;
+			/* customize rounder border (not supported in ie < 9) */
+			-moz-border-radius: 10px; 
+			-webkit-border-radius: 10px; 
+			border-radius: 10px;
+		}
+		
+		/* outer border background */
+		.peKenBurns .peKb_slides {
+			background-color:#e4e4db;
+		}
+     
+     	/* inner frame (insider border) background */
+		.peKenBurns .peKb_slides .peKb_frame{
+			background-color:#e4e4db;
+		}
+		
+		/* caption font */
+    	.peKenBurns .peKb_slides .peKb_caption h1 {
+			font-size: 18px;
+    		color: #FEFEFE;
+    	}
+		
+		/* caption padding */
+		.peKenBurns .peKb_slides .peKb_caption .peKb_real{
+			padding: 10px;
+    	}
+    	
+    	/* caption margins */
+    	.peKenBurns .peKb_slides .peKb_caption {
+			margin: 0px 5px 20px 5px;
+		}	
+		
+		/* caption background */
+    	.peKenBurns .peKb_slides .peKb_caption .peKb_background {
+    		background-color: #202020;
+		}

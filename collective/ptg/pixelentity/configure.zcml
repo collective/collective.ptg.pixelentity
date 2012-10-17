@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.ptg.pixelentity">
+
+    <browser:resourceDirectory
+        name="ptg.pixelentity"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IPixelentityDisplaySettings"
+        factory=".PixelentitySettings" />
+
+    <browser:page 
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-pixelentity"
+        class=".PixelentityDisplayType"
+        template="pixelentity.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".PixelentityDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-pixelentity" />
+
+</configure>
