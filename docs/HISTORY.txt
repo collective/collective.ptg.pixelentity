@@ -4,7 +4,7 @@ Changelog
 0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added i18n support generating Gettext files and enabled it [macagua]
 
 0.1 (2012-10-17)
 -------------------
