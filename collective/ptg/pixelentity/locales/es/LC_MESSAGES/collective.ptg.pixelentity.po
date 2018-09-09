@@ -1,5 +1,4 @@
 # --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# Diego Rubert, 2009.
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
 msgid ""
 msgstr ""
